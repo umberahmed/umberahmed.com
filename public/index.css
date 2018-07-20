@@ -1,13 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+#navigationbar {
+  color: gray;
+}
+
 .nav-item active {
   text-align: center;
 }
 
-.heading {
-  text-align: center;
-}
 .construction {
   text-align: center;
 }
+
 .center-navbar {
   justify-content: center;
+}
+.intro-container{
+display: flex;
+justify-content: center;
+margin-top:100px;   
+}
+
+.intro{
+
+  padding: 20px;
+  color: gray;
+  border: 2px solid;
+  margin: 20px;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
 }
