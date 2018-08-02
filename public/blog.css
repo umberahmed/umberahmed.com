@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.firstp {
+  /*border: solid;
+  border-color: grey;
+  border-radius: 2px;*/
+  padding: 0 10px 0;
+  margin: 10px;
+  color: grey;
+}
+
+.secondp  {
+  padding: 0 10px 0;
+  margin: 10px;
+  color: grey;
+}
+
+.li-csselement ul{
+  list-style-type: none;
+}

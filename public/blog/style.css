@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  background-color: #CCCCCC;
+  border-radius: 4px; 
+  margin: 10px 0;
+  padding: 5px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar1 li {
+  color: #7F7F7F;
+  padding: 0 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 12;
+  border-radius: 4px;
+}
+
+.navbar1 li:hover {
+  background-color: white;
+}
+
+/*CSS for second navbar practice*/
+
+header {
+  background-color: #333333;
+}
+
+nav {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+nav li {
+  color: white;
+  display: inline-block;
+  padding: 0 10px
+  /*padding-left: 10px;*/
+}
+
+nav li:hover {
+  background-color: grey;
+}

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-#navigationbar {
+.navigationbar {
   color: gray;
 }
 
@@ -17,23 +17,20 @@
 .center-navbar {
   justify-content: center;
 }
-.intro-container{
-display: flex;
-justify-content: center;
-margin-top:100px;   
+.intro-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.intro{
-
-  padding: 20px;
+.intro {
   color: gray;
-  border: 2px solid;
-  margin: 20px;
-  overflow: hidden;
+  margin: 10px;
+  padding: 20px;
   max-width: 500px;
 }
 
-h1{
+h1 {
   text-align: center;
   padding: 20px;
 }
