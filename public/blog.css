@@ -1,20 +1,17 @@
 body, html {
+  color: grey;
   margin: 0;
   padding: 0;
 }
 
-.blog-entry {
-  /*border: solid;
-  border-color: grey;
-  border-radius: 2px;*/
-  color: grey;
-  padding: 0 10px 0;
-  margin: 20px;
+h1 {
+text-align: center;
 }
 
-/*.li-csselement ul{
-  list-style-type: none;
-}*/
+.blog-entry {
+  margin: 20px;
+  padding: 0 10px 0;
+}
 
 .navbar {
   padding: 0 30px;
