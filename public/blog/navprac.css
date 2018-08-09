@@ -5,11 +5,15 @@ html, body {
 
 .navbar1 {
   background-color: #CCCCCC;
-  border-radius: 4px; 
-  margin: 10px 0;
+    /*margin: 10px 0;
   padding: 5px 0;
+  border-radius: 4px;
+  */
   overflow: hidden;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar1 li {
@@ -35,7 +39,6 @@ nav {
   margin: 0;
   padding: 10px 0;
   text-align: center;
-
 }
 
 nav li {
@@ -47,4 +50,14 @@ nav li {
 
 nav li:hover {
   background-color: grey;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.webtitle {
+  text-align: center;
+  padding: 20px;
+  color: #7F7F7F;  
 }

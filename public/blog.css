@@ -3,21 +3,19 @@ body, html {
   padding: 0;
 }
 
-.firstp {
+.blog-entry {
   /*border: solid;
   border-color: grey;
   border-radius: 2px;*/
-  padding: 0 10px 0;
-  margin: 10px;
   color: grey;
+  padding: 0 10px 0;
+  margin: 20px;
 }
 
-.secondp  {
-  padding: 0 10px 0;
-  margin: 10px;
-  color: grey;
-}
-
-.li-csselement ul{
+/*.li-csselement ul{
   list-style-type: none;
+}*/
+
+.navbar {
+  padding: 0 30px;
 }

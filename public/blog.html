@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="blog.css" />
   </head>
   <body>
-    <div class="secondp">
+    <div class="blog-entry">
         <h5>July 30. Navigation Bars</h5>
         <p>
           Yesterday, I practiced creating navigation bars. In the html file, I
@@ -37,18 +37,56 @@
   <!-- TODO: does the br work okay? above.  -->
           <div class="li-csselement">
              <ul>
-               <li>display: inline-block; /* bullets disappeared and text aligned
-                 horizontally */</li>
-               <li>color: grey; /* changed foreground/text color to grey*/</li>
-               <li>padding: 0 5px; /* padding of 5px to the right and left of list items*/</li>
-               <li>Font-size: 12; /* font-size to 12*/</li>
+               <li>display: inline-block; &nbsp;&nbsp;&nbsp;&nbsp; /* bullets disappeared
+                 and text aligned horizontally */</li>
+               <li>color: grey; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* changed foreground/text color to grey*/</li>
+               <li>padding: 0 5px; &nbsp;&nbsp;&nbsp; /* padding of 5px to the right and left of list items*/</li>
+               <li>Font-size: 12; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* font-size to 12*/</li>
              </ul>
            </div>
          </p>
-         <img src="blog/images/pg1.svg" alt="navigation progress so far">
+         <div class ="navbar">
+           <img src="blog/images/pg1.svg" alt="navigation progress so far">
+         </div>
+         <p>
+           Above image is of progress up to the elements I’ve written about
+           above. The navigation bar is pretty static, it doesn’t scroll and I
+           can’t hover over the items or click on them.
+         </p>
+         <p>
+           Elements I decided to add were:
+           <ul>
+             <li>hover color</li>
+             <li>hover rounded edges</li>
+             <li>scroll with page</li>
+           </ul>
+         </p>
+         <p>
+           Beginning with the hover color, I used the list elements to add the
+           style of white-background hover color.
+         </p>
+<!-- TODO: how do I have this <p> appear in exactly as I have writte it here -->
+         <p>
+           nav li: hover {
+               Background-color: white;
+             }
+         </p>
+         <p>
+            An interesting observation here, when I would hover over the items
+            with my mouse I could see that the padding I had initially set was
+            displayed on only the left side of the list item. I went into the
+            CSS file and corrected the padding dimensions so that there was
+            padding on both sides of the list items.
+          </p>
+          <p>
+            Next, I noticed that the default hover-highlight was a square
+            around the item. I wanted the hover to display nice rounded edges.
+            I achieved this by adding a border radius of 4px to the list items
+            in the css file and it rounded out the border! Wohoooo!!!
+          </p>
   </div>
 
-    <div class="firstp">
+    <div class="blog-entry">
       <h5>July 27. My First Blog Post</h5>
       <p>
       What does every blog need? Text. This is my first blog post. For now it will
