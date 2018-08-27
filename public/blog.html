@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thoughts | Umber Ahmed</title>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+
+  <body>
+    <h1>Thoughts</h1>
+    <div class="blog-entry">
+      <h2>August 14. Rasberry Pi</h2>
+      <p>
+        In total I have a basic homepage and an ongoing blog page in development.
+        I have a Rasberry Pi and I am going to use it as a server to host my
+        personal website so that it can be live. I've started to research
+        how I will be able to achieve this and I plan to be live by Sunday.
+      </p>
+      <p>
+        Coding practice update: I'm focusing on python functions this week.
+      </p>
+      <h2>July 30. Navigation Bars</h2>
+      <p>
+        Yesterday, I practiced creating navigation bars. In the html file, I
+        wrote out the navigation items in the form of a list:
+      </p>
+      <p>
+        <ul>
+          <li>About Our Farm</li>
+          <li>Buy Chickens</li>
+          <li>Chicken Feed?</li>
+          <li>How We Raise Our Chickens</li>
+        </ul>
+      </p>
+    <!-- TODO: figure out how to write out an <a> tag without it being triggered</a> -->
+      <p>
+        The navigation bar was a simple bulleted list on the top of the webpage
+        at this point. I couldn’t figure out how to get rid of the bullets or
+        how to align each list item horizontally. I started to look for other
+        tutorials. One suggestion from freecodecamp was to list the "a" tags in
+        the HTML instead of creating a list. I researched a bit more and found
+        that creating a list was common practice, so I ditched the freecodecamp
+        tutorial and used W3 School’s CSS navigation bar concepts.
+      </p>
+      <p>
+        I moved from the html file and into the css file to add all the element
+        that would create the navigation bar. I used the following css elements
+        on the list items:<br />
+        <ul>
+          <li><code>color: grey; /* changed foreground/text color to grey*/</code></li>
+          <li><code>display: inline-block; /* bullets disappeared and text aligned horizontally */</code></li>
+          <li><code>font-size: 12; /* font-size to 12*/</code></li>
+          <li><code>padding: 0 5px; /* padding of 5px to the right and left of list items*/</code></li>
+        </ul>
+      </p>
+      <div class="navbar"> <!-- TODO: edit image with more official editor.
+        whitespace below image is too large -->
+        <img src="blog/images/navstatic.png" alt="navigation progress so far">
+      </div>
+      <p>
+        Above image is of progress up to the elements I’ve written about above.
+        The navigation bar is pretty static, it doesn’t scroll and I can’t hover
+        over the items or click on them.
+      </p>
+      <p>
+        Elements I decided to add were:
+        <ul>
+          <li>hover color</li>
+          <li>hover rounded edges</li>
+          <li>scroll with page</li>
+        </ul>
+      </p>
+      <p>
+        Beginning with the hover color, I used the list elements to add the
+        style of white-background hover color.
+      </p>
+      <pre>
+        nav li: hover {
+          Background-color: white;
+        }
+      </pre>
+      <p>An interesting observation here, when I would hover over the items with
+        my mouse I could see that the padding I had initially set was displayed
+        on only the left side of the list item. I went into the CSS file and
+        corrected the padding dimensions so that there was padding on both sides
+        of the list items.
+      </p>
+      <p>
+        Next, I noticed that the default hover-highlight was a square around the
+        item. I wanted the hover to display nice rounded edges. I achieved this
+        by adding a border radius of 4px to the list items in the css file and
+        it rounded out the border! Wohoooo!!!
+      </p>
+      <p>
+        Finally, I was able to position the navbar as fixed to the top of the
+        page. If I had a full webpage, a fixed position would allow the navbar
+        to stay fixed on top of the page.
+      </p>
+      <!-- TODO: add jsfiddle link -->
+    </div>
+    <div class="blog-entry">
+      <h2>July 27. My First Blog Post</h2>
+      <p>
+        What does every blog need? Text. This is my first blog post. For now it
+        will consist of simple text, so that I can claim progress.
+      </p>
+      <p>
+        I am taking yoga this summer. Today, our instructor talked about
+        meeting ourselves wherever we are and to be honest about it.
+        She instructed us to think about our poses and to really teach our bodies
+        to do the poses correctly versus doing them the fastest for a heart racing workout.
+      </p>
+      <p>
+        The teachings this afternoon got me thinking about my coding practice.
+        As much as I would love to be creating the most elaborate websites with
+        as much interactivity as possible, I am not there yet. If I am being honest
+        with myself, I've finally begun to understand the difference between HTML
+        and CSS.
+      </p>
+      <p>
+        As I am writing this blog post out, I've just realized that I am writing
+        in what is supposed to be the Contact Me page of my personal site...
+      </p>
+      <p>Today, I'm honoring the beginnings of my coding experiences and
+        encouraging myself onwards towards many more!
+      </p>
+    </div>
+  </body>
+</html>

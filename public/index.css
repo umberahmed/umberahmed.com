@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.navigationbar {
+  color: gray;
+}
+
+.nav-item active {
+  text-align: center;
+}
+
+.construction {
+  text-align: center;
+}
+
+.center-navbar {
+  justify-content: center;
+}
+.intro-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.intro {
+  color: gray;
+  margin: 10px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
